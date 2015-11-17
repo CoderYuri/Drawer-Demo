@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA6040061BFAEEE200D53B2F /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6040051BFAEEE200D53B2F /* test.m */; };
 		DA6DBEF61BD3DD960039405C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DBEF51BD3DD960039405C /* main.m */; };
 		DA6DBEF91BD3DD960039405C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DBEF81BD3DD960039405C /* AppDelegate.m */; };
 		DA6DBEFC1BD3DD960039405C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DBEFB1BD3DD960039405C /* ViewController.m */; };
 		DA6DBEFF1BD3DD960039405C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6DBEFD1BD3DD960039405C /* Main.storyboard */; };
 		DA6DBF011BD3DD960039405C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6DBF001BD3DD960039405C /* Assets.xcassets */; };
 		DA6DBF041BD3DD960039405C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6DBF021BD3DD960039405C /* LaunchScreen.storyboard */; };
-		DAEA92EB1BD480BE0046A898 /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEA92EA1BD480BE0046A898 /* YLViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DAEA92EB1BD480BE0046A898 /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEA92EA1BD480BE0046A898 /* YLViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA6040041BFAEEE200D53B2F /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		DA6040051BFAEEE200D53B2F /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		DA6DBEF11BD3DD960039405C /* 抽屉效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽屉效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6DBEF51BD3DD960039405C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA6DBEF71BD3DD960039405C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				DA6DBEF41BD3DD960039405C /* Supporting Files */,
 				DAEA92E91BD480BE0046A898 /* YLViewController.h */,
 				DAEA92EA1BD480BE0046A898 /* YLViewController.m */,
+				DA6040041BFAEEE200D53B2F /* test.h */,
+				DA6040051BFAEEE200D53B2F /* test.m */,
 			);
 			path = "抽屉效果";
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6040061BFAEEE200D53B2F /* test.m in Sources */,
 				DA6DBEFC1BD3DD960039405C /* ViewController.m in Sources */,
 				DAEA92EB1BD480BE0046A898 /* YLViewController.m in Sources */,
 				DA6DBEF91BD3DD960039405C /* AppDelegate.m in Sources */,
